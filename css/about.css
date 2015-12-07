@@ -57,11 +57,14 @@ body {
 	margin-bottom: 35px;
 	text-align: center;
 	font-family: Rockwell, 'Courier Bold', Courier, Georgia, Times, 'Times New Roman', serif;
-	font-size: 35px;
+	font-size: 30px;
 	font-style: normal;
 	font-variant: normal;
 	font-weight: 500;
-	line-height: 15.4px;
+	line-height: 24px;
+}
+#rj #hidden-md {
+	display: inline;
 }
 
 #dee {
@@ -74,12 +77,12 @@ body {
 	line-height: 24px;
 }
 #dee h2 {
-	margin-bottom: 35px;
+	margin-bottom: 30px;
 	text-align: center;
 	font-family: Rockwell, 'Courier Bold', Courier, Georgia, Times, 'Times New Roman', serif;
 	font-size: 35px;
 	font-style: normal;
 	font-variant: normal;
 	font-weight: 500;
-	line-height: 15.4px;
+	line-height: 24px;
 }
