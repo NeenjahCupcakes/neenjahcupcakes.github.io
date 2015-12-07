@@ -1,6 +1,14 @@
 ﻿<!DOCTYPE html> <!-- Ensures that our website loads correctly in different browsers -->
-<html>
+<html lang="en">
 	<head>
+		<meta charset="UTF-8">
+		
+		<!-- If IE use the latest rendering engine -->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		
+		<!-- Set the page to the width of the device and set the zoon level -->
+		<meta name="viewport" content="width=device-width, initial-scale/1">
+		<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 		<link rel="stylesheet" type="text/css" href="../css/about.css" />
 		<link rel="icon" type="image/png" href="../photos/favicon-32x32.png" sizes="32x32" />
 		<link rel="icon" type="image/png" href="../photos/favicon-32x32favicon-16x16.png" sizes="16x16" />
@@ -9,70 +17,104 @@
 		
 	</head>
 	
-	
-	<nav>
-		<ul>
-			<li><a href="../">Front</a></li>
-			<li><a href="../projects/">Projects</a></li>
-			<li><a href="../media/">Media</a></li>
-		</ul>
-	</nav>
-	
 	<body>
 	
-		<h1>About Us</h1>
+		<div class="container">
+	
+			<nav class="navbar-inverse navbar-fixed-top">
+				<div class="container-fluid">
+					<div class="navbar-header">
+					
+						<a class="pull-left" href="#"><img src="../photos/NCblack2.jpg" height="50" width="50"></a>
+						<ul class="nav navbar-nav">
+							<li><a href="../">Front</a></li>
+							<li><a href="../projects/">Projects</a></li>
+							<li><a href="../media/">Media</a></li>
+							<li class="active"><a href="../about/">About</a></li>
+						
+					</div>
+				</div>
+			</nav>
 		
-		<h4>It's all about the game.</h4>
-		
-		<p>
-		
-		<div class="company">
-			<h2>The Company</h2>
-			<h3>A Duo of Developers, Designing for Fun and for Glory</h3>
-			<p>Neenjah Cupcakes is a software development team based in South San Francisco and Daly City, California, 
-			consisting of two newly-minted computer scientists,
-			and we live and breathe ambition. It's who we are. As a couple of high school friends working to
-			make an industry impact, we aspire for creative, novel, and intuitive solutions... and enjoying
-			every second of it! We're both experienced programmers (mainly Java and C++), but we're excited
-			about our new projects that will surely test our skills (old and new) and have that signature
-			Neenjah Cupcakes element of "Fun and Functional".</p>
-		</div>
-		
-		<div class="profiles">
-		
-			<div class="rj">
-				<h2>Ruszel Jonathan T. Refuerzo</h2>
-				<img src="photos/refuerzo.jpg" height="250" width="250"/>
-				<ul>
-					<li>Ruszel.Refuerzo@gmail.com</li>
-					<li>Preferred Name: RJ</li>
-					<li>B.S. Biochemistry/Chemistry, Computer Science Minor</li>
-					<li>University of California, San Diego, 2015</li>
-					<li>Specialty: Drug synthesis and design, Biochemistry and Analytical Assays, C++</li>
-					<li>Bio:</li>
-					<li><a href="https://www.linkedin.com/in/rj-refuerzo-b0a750a6" target="_blank">LinkedIn</a></li>
-					<li><a href="https://github.com/RefuerzoCSE" target="_blank">GitHub Repo</a></li>
-					<li><a href="https://www.dropbox.com/s/shjds871g0zly1g/rj%20refuerzo%20resume.pdf?dl=0" target="_blank">Resume</a></li>
-				</ul>
+			<div class="page-header">
+				
+				<h1>About Us</h1>
+				<h4>It's all about the game.</h4>
+				
 			</div>
 			
-			<div class="dee">
-				<h2>Deanna A. Yee</h2>
-				<img src="photos/yee.jpg" height="250" width="250"/>
-				<ul>
-					<li>DeannaYee0108@gamil.com</li>
-					<li>Preferred Name: Dee</li>
-					<li>B.S. Computer Science and Engineering</li>
-					<li>University of California, Irvine, 2015</li>
-					<li>Specialty: Embedded Systems, Back-End Development, Java, C++</li>
-					<li>Bio:</li>
-					<li><a href="https://www.linkedin.com/in/deanna-yee-62a90470" target="_blank">LinkedIn</a></li>
-					<li><a href="https://github.com/deanna-yee" target="_blank">GitHub Repo</a></li>
-					<li><a href="https://www.dropbox.com/home?preview=Deanna+Yee%27s+resume.pdf" target="_blank">Resume</a></li>
-				</ul>
+			<div class="jumbotron">
+				<h2>Our Company</h2>
+				<h3>A Duo of Developers, Designing for Fun and for Glory</h3>
+				<p>Neenjah Cupcakes is a software development team based in South San Francisco and Daly City, California, 
+				consisting of two newly-minted computer scientists,
+				and we live and breathe ambition. It's who we are. As a couple of high school friends working to
+				make an industry impact, we aspire for creative, novel, and intuitive solutions... and enjoying
+				every second of it! We're both experienced programmers (mainly Java and C++), but we're excited
+				about our new projects that will surely test our skills (old and new) and have that signature
+				Neenjah Cupcakes element of "Fun and Functional".</p>
 			</div>
 			
-		</div>
+			<div class="row">
+		
+				<div class="well col-lg-6 col-md-6 col-sm-12 col-xs-12" id="rj">
+					<h2>Ruszel Jonathan T. Refuerzo</h2>
+					<img src="photos/refuerzo.jpg" class="img-responsive img-rounded"/>
+					Ruszel.Refuerzo@gmail.com<br>
+					Preferred Name: RJ<br>
+					B.S. Biochemistry/Chemistry, Computer Science Minor<br>
+					University of California, San Diego, 2015<br>
+					Specialty: Drug synthesis and design, Biochemistry and Analytical Assays, C++<br>
+					<button class="btn btn-success" type="button" data-toggle="collapse" data-target="#rjbio" aria-expanded="false" aria-controls="rjbio">
+						Show Biography
+					</button>
+					<div class="collapse" id="rjbio">
+						<div class="well">
+							Will add soon!
+						</div>
+					</div>
+					
+					<br> 
+					<br>
+
+					<a href="https://www.linkedin.com/pub/rj-refuerzo/a6/750/b0a">
+						<img src="https://static.licdn.com/scds/common/u/img/webpromo/btn_viewmy_160x33.png" width="160" height="33" border="0" alt="View RJ Refuerzo's profile on LinkedIn"></a>
+					<a href="https://github.com/RefuerzoCSE" target="_blank"><img src="photos/github.png" width="100" height="33"></a>
+					<a href="https://www.dropbox.com/s/shjds871g0zly1g/rj%20refuerzo%20resume.pdf?dl=0" target="_blank"><button type="button" class="btn btn-primary btn-xs">See RJ's Resume on Dropbox</button></a>
+				</div><!-- rj -->
+				
+				<div class="well col-lg-6 col-md-6 col-sm-12 col-xs-12" id="dee">
+					<h2>Deanna A. Yee</h2>
+					<img src="photos/yee.jpg" class="img-responsive img-rounded"/>
+					DeannaYee0108@gamil.com<br>
+					Preferred Name: Dee<br>
+					B.S. Computer Science and Engineering<br>
+					University of California, Irvine, 2015<br>
+					Specialty: Embedded Systems, Back-End Development, Java, C++<br>
+					<button class="btn btn-success" type="button" data-toggle="collapse" data-target="#deebio" aria-expanded="false" aria-controls="deebio">
+						Show Biography
+					</button>
+					<div class="collapse" id="deebio">
+						<div class="well">
+							Will add soon!
+						</div>
+					</div>
+					
+					<br> 
+					<br>
+	
+					<a href="https://www.linkedin.com/in/deanna-yee-62a90470">
+						<img src="https://static.licdn.com/scds/common/u/img/webpromo/btn_viewmy_160x33.png" width="160" height="33" border="0" alt="View Deanna Yee's profile on LinkedIn"></a>
+					<a href="https://github.com/deanna-yee" target="_blank"><img src="photos/github.png" width="100" height="33"></a>
+					<a href="https://www.dropbox.com/home?preview=Deanna+Yee%27s+resume.pdf" target="_blank"><button type="button" class="btn btn-primary btn-xs">See Deanna's Resume on Dropbox</button></a>
+				</div><!-- dee -->
+				
+			</div> <!-- row -->
+			
+		</div> <!-- container -->
+		
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 	
 	</body>	
 </html>
