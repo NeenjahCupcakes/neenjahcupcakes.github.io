@@ -1,1 +1,85 @@
-h1 { color: red; }
+.page-header h1 {
+	font-family: 'Lucida Bright', Georgia, serif;
+	font-size: 60px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.4px;
+	margin-top: 80px;
+	margin-bottom: 20px;
+}
+.page-header h4 {
+	font-family: 'Brush Script MT', cursive;
+	font-size: 20px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 15.4px;
+}
+
+body {
+	background: #ecd9c6;
+}
+
+.jumbotron {
+	color: white;
+	background-image: url("../about/photos/companycolor.jpeg"); 
+	background-size: cover;
+	background-position: 50% 10%;
+}
+.jumbotron h2 {
+	font-family: 'Lucida Bright', Georgia, serif;
+	font-size: 35px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.4px;
+}
+.jumbotron h3 {
+	font-family: Rockwell, 'Courier Bold', Courier, Georgia, Times, 'Times New Roman', serif;
+	font-size: 30px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 30px; /* This is to prevent the lines from overlapping when the screen size is small */
+}
+
+#rj {
+	background: #ffcccc;
+	font-family: Rockwell, 'Courier Bold', Courier, Georgia, Times, 'Times New Roman', serif;
+	font-size: 20px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 24px;
+}
+#rj h2{
+	margin-bottom: 35px;
+	text-align: center;
+	font-family: Rockwell, 'Courier Bold', Courier, Georgia, Times, 'Times New Roman', serif;
+	font-size: 40px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 15.4px;
+}
+
+#dee {
+	background: #e0ccff;
+	font-family: Rockwell, 'Courier Bold', Courier, Georgia, Times, 'Times New Roman', serif;
+	font-size: 20px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 24px;
+}
+#dee h2 {
+	margin-bottom: 35px;
+	text-align: center;
+	font-family: Rockwell, 'Courier Bold', Courier, Georgia, Times, 'Times New Roman', serif;
+	font-size: 40px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 15.4px;
+}
