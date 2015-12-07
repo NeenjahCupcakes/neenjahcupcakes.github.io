@@ -18,6 +18,20 @@ body {
 	text-align: center;
 }
 
+.jumbotron{
+	color: white;
+	font-family: 'Arial Black', 'Arial Bold', Gadget, serif;
+	font-size: 14px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 25px;
+	background: black;
+	background-image: url("../photos/shoreview.jpeg");
+	background-size: cover;
+	background-position: 50% 55%;
+}
+
 .jumbotron p {
 	padding: 16px;
 }
