@@ -1,6 +1,14 @@
 ﻿<!DOCTYPE html> <!-- Ensures that our website loads correctly in different browsers -->
-<html>
+<html lang="en">
 	<head>
+		<meta charset="UTF-8">
+		
+		<!-- If IE use the latest rendering engine -->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		
+		<!-- Set the page to the width of the device and set the zoon level -->
+		<meta name="viewport" content="width=device-width, initial-scale/1">
+		<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 		<link rel="stylesheet" type="text/css" href="../css/media.css" />
 		<link rel="icon" type="image/png" href="../photos/favicon-32x32.png" sizes="32x32" />
 		<link rel="icon" type="image/png" href="../photos/favicon-32x32favicon-16x16.png" sizes="16x16" />
@@ -10,21 +18,56 @@
 	</head>
 	
 	<body>
-		<nav>
-			<ul>
-				<li><a href="../">Front</a></li>
-				<li><a href="../projects/">Projects</a></li>
-				<li><a href="../about/">About</a></li>
-			</ul>
-		</nav>
-		
-		<h1>Media</h1>
-		
-		<h4>We see the world, not as it is, but as we.</h4>
-		
-		<h2>San Francisco Union Square Tree Lighting 2015</h2>
-		<img src="treelighting/1.JPG" height="480" width="640">
-		<img src="treelighting/2.JPG" height="640" width="480">
+	
+		<div class="container"> <!-- Needs to encapsulate the whole body in order for BS to work -->
+	
+			<!-- NAVIGATION BAR -->
+			<nav class="navbar-inverse navbar-fixed-top">
+				<div class="container-fluid">
+					<div class="navbar-header">
+					
+						<!-- Button that toggles the navbar on and off on small screens -->
+						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-1" aria-expanded="false">
+
+							<!-- Hides information from screen readers -->
+							<span class="sr-only"></span>
+
+							<!-- Draws 3 bars in navbar button when in small mode -->
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+					
+						<a class="pull-left" href="#"><img src="../photos/NCblack2.jpg" height="50" width="50"></a>
+					</div> <!-- navbar-header -->
+						
+					<div class="collapse navbar-collapse" id="navbar-collapse-1">
+						<ul class="nav navbar-nav">
+							<li><a href="../">Front</a></li>
+							<li><a href="../projects/">Projects</a></li>
+							<li class="active"><a href="../media/">Media</a></li>
+							<li><a href="../about/">About</a>
+						</li>
+					</div> <!-- navbar-collapse -->					
+				</div> <!-- container-fluid -->
+			</nav>
+			
+			<div class="page-header">
+			
+				<h1>Media</h1>
+				<h4>We see the world, not as it is, but as we.</h4>
+				
+			</div>
+			
+			<h2>San Francisco Union Square Tree Lighting 2015</h2>
+			<img src="treelighting/1.JPG" height="480" width="640">
+			<img src="treelighting/2.JPG" height="640" width="480">
+			
+		</div> <!-- container -->
+	
+		<!-- Not entirely sure what these do, but I assume they're for loading javascript animations -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 	
 	</body>
 </html>
