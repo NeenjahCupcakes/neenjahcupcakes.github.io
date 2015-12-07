@@ -1,6 +1,6 @@
 .page-header h1{ 
 	text-align: center;
-	color: black; 
+	font-size: 80px;
 }
 
 .page-header img{
@@ -8,10 +8,11 @@
 	margin: auto;
 }
 
-.row {
-	display: block;
-	margin: auto;
-}
+
 body {
 	background: #ecd9c6;
+}
+
+.row h2{
+	text-align: center;
 }
