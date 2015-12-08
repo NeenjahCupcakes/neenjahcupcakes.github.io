@@ -25,12 +25,17 @@ body {
 	top: 30%;
 	font-weight: bold;
 	text-align: center;
-	color: white;
 	width: 100%;
 	font-size: 60px;
 }
 
+#media h2{
+	color: white;
+}
 
+#projects  h2{
+	color: black;
+}
 .jumbotron{
 	color: white;
 	font-family: 'Arial Black', 'Arial Bold', Gadget, serif;
@@ -49,14 +54,14 @@ body {
 	padding: 16px;
 }
 
-#create {
+.create {
 	text-align: center;
 }
 
-#bootstrap {
-	padding-left: 45px;
+#artwork {
+	text-align: center;
 }
 
 #fontAwesome {
-	text-align: right;
+	text-align: center;
 }
