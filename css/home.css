@@ -1,6 +1,7 @@
-.page-header h1{ 
+.page-header h1{
+	font-family: Georgia, serif;
 	text-align: center;
-	font-size: 80px;
+	font-size: 90px;
 	margin-top: 60px;
 }
 
@@ -14,9 +15,21 @@ body {
 	background: #ecd9c6;
 }
 
-.row h2{
-	text-align: center;
+.image {
+	position: relative;
+	float: left;
+	padding-bottom: 20px;
 }
+.image h2{
+	position: absolute;
+	top: 30%;
+	font-weight: bold;
+	text-align: center;
+	color: white;
+	width: 100%;
+	font-size: 60px;
+}
+
 
 .jumbotron{
 	color: white;
@@ -34,4 +47,16 @@ body {
 
 .jumbotron p {
 	padding: 16px;
+}
+
+#create {
+	text-align: center;
+}
+
+#bootstrap {
+	padding-left: 45px;
+}
+
+#fontAwesome {
+	text-align: right;
 }
