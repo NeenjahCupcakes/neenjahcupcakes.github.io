@@ -5,12 +5,6 @@
 	margin-top: 60px;
 }
 
-.page-header img{
-	display: block;
-	margin: auto;
-}
-
-
 body {
 	background: #ecd9c6;
 }
@@ -40,7 +34,7 @@ body {
 #about h2{
 	color: red;
 }
-.jumbotron{
+#bottom {
 	color: white;
 	font-family: 'Arial Black', 'Arial Bold', Gadget, serif;
 	font-size: 14px;
@@ -54,7 +48,13 @@ body {
 	background-position: 50% 55%;
 }
 
-.jumbotron p {
+#top {
+	background-image: url("../photos/missionpeak.jpg");
+	background-size: cover;
+	background-position: 50% 10%;
+}
+
+.bottom p {
 	padding: 16px;
 }
 
