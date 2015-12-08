@@ -29,12 +29,16 @@ body {
 	font-size: 60px;
 }
 
+#projects  h2{
+	color: red;
+}
+
 #media h2{
 	color: white;
 }
 
-#projects  h2{
-	color: black;
+#about h2{
+	color: red;
 }
 .jumbotron{
 	color: white;
